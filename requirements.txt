@@ -1,0 +1,5 @@
+Django~=2.0.6
+graphene_django
+djangorestframework
+django-cors-headers
+Pillow

@@ -1,0 +1,16 @@
+
+{% extends 'blog/base.html' %}
+
+	{% block content %}
+    	{% for post in posts %}
+        	<div class="post">
+           		<h1>{{ post.title }}</h1>
+           		<p>{{ post.text|linebreaksbr }}</p>
+           		<p>Precio: ${{ post.price|linebreaksbr }}</p>
+           		
+           		{% if post.image %}
+					   <img src="{{post.image.url}}" class="image_post">
+           		{% endif %}
+       		</div>
+   		{% endfor %}
+	{% endblock %}

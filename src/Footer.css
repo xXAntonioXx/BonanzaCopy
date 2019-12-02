@@ -1,0 +1,12 @@
+.ubicacion {
+
+    color: brown; 
+
+}
+
+.columnas {
+ 
+    column-count: 3;
+column-gap: 0cm;
+
+}

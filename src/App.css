@@ -1,0 +1,30 @@
+.data-container { /* el fondo que contiene a las fotos */
+  min-height: 85vh;
+  padding-top: 50px;
+  padding-right: 80px;
+  padding-left: 80px;
+ /* background-color: beige;*/
+ 
+
+}
+.header {
+ 
+  z-index: 999
+  
+}
+.footer-container{ /*barra del footer*/
+  background-color: #efbe43;
+
+}
+
+
+
+.cat-container{ /* barrita que esta por debajo de los botones */
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  
+
+}
+
+
